@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.poster {
+  width: 300px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  color: #007bff;
+}
+.poster img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
